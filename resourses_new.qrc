@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="resourses_new">
+    <file>icons/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/search_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons_new/Кнопка категорий.svg</file>
+    <file>icons_new/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons_new/block_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons_new/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons_new/call_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg</file>
+    <file>icons_new/close_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons_new/shopping_cart_24dp_FILL0_wght400_GRAD0_opsz24 (1).svg</file>
+    <file>icons_new/Фото.svg</file>
+  </qresource>
+</RCC>

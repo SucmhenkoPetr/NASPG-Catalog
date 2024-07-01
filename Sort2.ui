@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>320</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(&quot;icons_new/Сортировка.jpg&quot;);</string>
+  </property>
+  <widget class="QWidget" name="Widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>291</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:none;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QCheckBox" name="Checked1_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{ 
+    font-size:12pt;
+	font-family:Comfortaa;
+background:none;
+border:none;
+color:white;
+}
+QCheckBox::indicator {
+   height:20px;
+   width:20px;
+   border-radius:5px;
+	background-color:white;
+}
+QCheckBox::indicator:checked {
+   
+    background:url(&quot;icons_new/checked.jpg&quot;);
+}</string>
+      </property>
+      <property name="text">
+       <string>Производство</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="tristate">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Checked2_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{ 
+    font-size:12pt;
+	font-family:Comfortaa;
+background:none;
+border:none;
+color:white;
+}
+QCheckBox::indicator {
+   height:20px;
+   width:20px;
+   border-radius:5px;
+	background-color:white;
+}
+QCheckBox::indicator:checked {
+   
+    background:url(&quot;icons_new/checked.jpg&quot;);
+}</string>
+      </property>
+      <property name="text">
+       <string>Инфрастр. потребления</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Checked3_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{ 
+    font-size:12pt;
+	font-family:Comfortaa;
+background:none;
+border:none;
+color:white;
+}
+QCheckBox::indicator {
+   height:20px;
+   width:20px;
+   border-radius:5px;
+	background-color:white;
+}
+QCheckBox::indicator:checked {
+   
+    background:url(&quot;icons_new/checked.jpg&quot;);
+}</string>
+      </property>
+      <property name="text">
+       <string>Потребление</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Checked4_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{ 
+    font-size:12pt;
+	font-family:Comfortaa;
+background:none;
+border:none;
+color:white;
+}
+QCheckBox::indicator {
+   height:20px;
+   width:20px;
+   border-radius:5px;
+	background-color:white;
+}
+QCheckBox::indicator:checked {
+   
+    background:url(&quot;icons_new/checked.jpg&quot;);
+}</string>
+      </property>
+      <property name="text">
+       <string>Транспортировка</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Checked5_2">
+      <property name="styleSheet">
+       <string notr="true">QCheckBox{ 
+    font-size:12pt;
+	font-family:Comfortaa;
+background:none;
+border:none;
+color:white;
+}
+QCheckBox::indicator {
+   height:20px;
+   width:20px;
+   border-radius:5px;
+	background-color:white;
+}
+QCheckBox::indicator:checked {
+   
+    background:url(&quot;icons_new/checked.jpg&quot;);
+}</string>
+      </property>
+      <property name="text">
+       <string>Храниние и Регазификация</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Next">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>340</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:none;
+border:3px solid white;
+border-radius:20px;
+color:white;
+font-family:Comfortaa;;
+font-size:16pt;
+}
+QPushButton:hover{
+background:white;
+color:rgba(36,173,243,255);
+}
+QPushButton:pressed{
+border:none;
+background:rgba(255,255,255,160);
+color:rgba(36,173,243,255);
+}</string>
+   </property>
+   <property name="text">
+    <string>Далее</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Last">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+background:none;
+border:none;
+border-radius:15px;
+
+}
+QPushButton:hover{
+background:rgba(255,255,255,20);
+
+
+}
+
+QPushButton:pressed{
+background:rgba(255,255,255,30);
+border:none;
+
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resourses_new.qrc">
+     <normaloff>:/resourses_new/icons/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/resourses_new/icons/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourses_new.qrc"/>
+ </resources>
+ <connections/>
+</ui>
